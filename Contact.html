@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            color: #000;
+            text-align: center;
+            font-style: normal;
+        }
+
+        hr {
+            border: 1px solid #ccc;
+            margin: 20px 0;
+        }
+
+        div {
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 15px;
+        }
+
+        h3, h4 {
+            text-align: center;
+        }
+
+        .input-container, .email-container, .text-container, .button-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        input, textarea, button {
+            padding: 10px;
+            margin: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 100%;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        button {
+            background-color: #007BFF;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .copyright {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Abdullah's Cuisine</h1>
+    <hr>
+
+    <div>
+        <a href="./index.html">Home</a> 
+        <a href="./Menu.html">Menu</a>
+        <a href="./About.html">About</a>
+        <a href="./Timing.html">Timing</a>
+        <a href="./Contact.html">Contact</a>
+    </div>
+    <hr>
+
+    <h3>Contact Us</h3>
+
+    <div class="input-container">
+        <div>
+            Name <input type="text" name="name" id="name">
+        </div>
+    </div>
+
+    <div class="email-container">
+        <div>
+            Email <input type="email" name="email" id="email">
+        </div>
+    </div>
+
+    <div class="text-container">
+        <div>
+            <textarea name="message" id="message" cols="30" rows="10">Enter your message here</textarea>
+        </div>
+    </div>
+
+    <div class="button-container">
+        <button>
+            Send Message
+        </button>
+    </div>
+
+    <hr>
+    <h4 class="copyright">Copyright @ 2028 Abdullah's Cuisine</h4>
+</body>
+</html>
